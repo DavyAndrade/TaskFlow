@@ -38,6 +38,7 @@ Você pode publicar o ToDoList facilmente no Netlify ou GitHub Pages. Basta subi
 3. Use os botões de filtro para visualizar tarefas pendentes, concluídas ou todas.
 
 ## Estrutura do Projeto
+
 ```
 ToDoList/
 │
@@ -48,17 +49,12 @@ ToDoList/
 │   │   └── style.css         # CSS gerado automaticamente pelo Tailwind CLI
 │   └── js/
 │       └── script.js         # Lógica JavaScript da aplicação
-├── base/
-│   ├── teste.html            # Exemplo didático para estudos e consulta
-│   └── README.md             # Material de apoio para aulas de HTML
-├── notes.md                  # Comandos úteis e anotações de desenvolvimento
 ├── todo.md                   # Lista de tarefas e roadmap do projeto
 ├── package.json              # Dependências e scripts do projeto (Tailwind CLI)
 ├── package-lock.json         # Lockfile do npm para controle de versões
 ├── .gitignore                # Arquivos e pastas ignorados pelo Git
 └── README.md                 # Documentação principal do projeto
 ```
-
 ## Tecnologias Utilizadas
 - **HTML5** — Estruturação das páginas
 - **CSS3 (Tailwind)** — Estilização, responsividade e layout moderno
@@ -66,7 +62,7 @@ ToDoList/
 
 ## Organização do Código
 - **Separação de responsabilidades:** HTML, CSS e JS organizados em pastas distintas
-- **Material didático:** Diretório `base/` com exemplos para consulta
+- **Material didático:** Diretório `base/` com exemplos para consulta (não publicado no deploy)
 - **Roadmap:** Arquivo `todo.md` para controle de progresso
 
 ## Padrão Visual e Responsividade
