@@ -4,3 +4,8 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+.task-item:hover, .task-item:focus {
+  transform: translateY(-2px);
+  transition: all 300ms ease-in-out;
+}

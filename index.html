@@ -31,26 +31,32 @@
 
     <!-- Filtros -->
     <div class="bg-white rounded-xl shadow-lg p-4 w-full grid grid-cols-2 gap-2 sm:flex sm:justify-center sm:gap-3">
-      <button class="bg-gray-600 py-2 px-4 rounded-lg text-white">
+      <button
+        class="bg-gray-500 py-2 px-4 rounded-lg text-white cursor-pointer hover:bg-gray-600 focus:bg-gray-600 transition-colors duration-200 font-medium" id="filterAll">
         <span class="sm:hidden">📋</span>
         <span class="hidden sm:inline">📋 Todas</span>
       </button>
-      <button class="bg-orange-500 py-2 px-4 rounded-lg text-white">
+      <button
+        class="bg-orange-500 py-2 px-4 rounded-lg text-white cursor-pointer hover:bg-orange-600 focus:bg-orange-600 transition-colors duration-200 font-medium" id="filterPending">
         <span class="sm:hidden">⌛</span>
         <span class="hidden sm:inline">⌛ Pendentes</span>
       </button>
-      <button class="bg-green-500 py-2 px-4 rounded-lg text-white">
+      <button
+        class="bg-green-500 py-2 px-4 rounded-lg text-white cursor-pointer hover:bg-green-600 focus:bg-green-600 transition-colors duration-200 font-medium" id="filterCompleted">
         <span class="sm:hidden">✅</span>
         <span class="hidden sm:inline">✅ Concluídas</span>
       </button>
-      <button class="bg-yellow-500 py-2 px-4 rounded-lg text-white">
+      <button
+        class="bg-yellow-500 py-2 px-4 rounded-lg text-white cursor-pointer hover:bg-yellow-600 focus:bg-yellow-600 transition-colors duration-200 font-medium" id="filterFavorites">
         <span class="sm:hidden">⭐</span>
         <span class="hidden sm:inline">⭐ Favoritas</span>
       </button>
     </div>
 
     <!-- Seção de Tarefas carregada dinamicamente -->
-    <div id="taskList" class="flex w-full flex-col"></div>
+    <div id="taskList" class="flex w-full flex-col">
+      
+    </div>
   </main>
 
   <script type="module" src="./src/js/main.js"></script>

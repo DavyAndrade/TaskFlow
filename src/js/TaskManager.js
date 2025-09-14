@@ -4,8 +4,13 @@ export default class TaskManager {
     this.currentFilter = "all";
   }
 
+  // Utils
   saveTasks() {
     localStorage.setItem("ToDoTasks", JSON.stringify(this.tasks));
+  }
+
+  setFilter(filter) {
+    this.currentFilter = filter;
   }
 
   // Create
@@ -41,8 +46,14 @@ export default class TaskManager {
   }
 
   // Update
-  updateTask(id) {
-    console.log("Atualização de Tarefa ID " + id);
+  updateTask(id, title) {
+    const task = this.tasks.find((task) => task.id === id);
+
+    if (task) {
+      task.title = title;
+      task.updatedAt = new Date().toISOString();
+      this.saveTasks();
+    }
   }
 
   toggleComplete(id) {
@@ -50,7 +61,7 @@ export default class TaskManager {
 
     if (task) {
       task.completed = !task.completed;
-      task.updateAt = new Date().toISOString();
+      task.updatedAt = new Date().toISOString();
       this.saveTasks();
     }
   }
@@ -60,7 +71,7 @@ export default class TaskManager {
 
     if (task) {
       task.favorite = !task.favorite;
-      task.updateAt = new Date().toISOString();
+      task.updatedAt = new Date().toISOString();
       this.saveTasks();
     }
   }

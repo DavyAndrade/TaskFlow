@@ -17,10 +17,12 @@
 - [x] Leitura de Tarefas
 - [x] Leitura de Tarefas Completas
 - [x] Leitura de Tarefas Favoritas
-- [ ] Melhorar a leitura de tarefas
+- [x] Melhorar a leitura de tarefas
+- [ ] Botão de Concluir Tarefa
 - [ ] Atualizar Tarefas
+- [ ] Botão de Editar Tarefa
 - [ ] Deletar Tarefas
-- [ ] Botões de Filtros Funcionais
+- [x] Botões de Filtros Funcionais
 - [ ] Toggle de Tarefa Completa
 
 # Outros
