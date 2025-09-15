@@ -43,7 +43,6 @@ ToDoList/
 ├── .gitignore                # Arquivos e pastas ignorados pelo Git
 └── README.md                 # Documentação principal do projeto
 ```
-> **Nota:** Os diretórios `base/` e o arquivo `notes.md` são ignorados no deploy por padrão, conforme configurado no `.gitignore`.
 
 ## Tecnologias Utilizadas
 
