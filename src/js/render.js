@@ -1,4 +1,5 @@
 import { getTasks } from "./tasks.js";
+import { taskList } from "./main.js";
 
 export function renderTaskList() {
   const tasks = getTasks();
@@ -45,12 +46,12 @@ export function renderTaskList() {
             </button>
             <button class="bg-blue-100 p-2 rounded-lg hover:bg-blue-200 transition-colors duration-200 cursor-pointer edit-btn" data-id="${
               task.id
-            }" title="Editar Tarefa">
+            }" data-title="${task.title}" title="Editar Tarefa">
               ✏️
             </button>
             <button class="bg-red-100 p-2 rounded-lg hover:bg-red-200 transition-colors duration-200 cursor-pointer del-btn" data-id="${
               task.id
-            }" title="Excluir Tarefa">
+            }" data-title="${task.title}" title="Excluir Tarefa">
               🗑️
             </button>
           </div>

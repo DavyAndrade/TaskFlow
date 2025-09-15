@@ -6,10 +6,11 @@ import {
   deleteTask,
 } from "./tasks.js";
 import { renderTaskList } from "./render.js";
+import { deleteModal } from "./modals.js";
 
 const taskForm = document.getElementById("taskForm");
 const taskInput = document.getElementById("taskInput");
-const taskList = document.getElementById("taskList");
+export const taskList = document.getElementById("taskList");
 const filter = document.getElementById("filter");
 
 window.addEventListener("load", () => {
@@ -17,6 +18,7 @@ window.addEventListener("load", () => {
   console.log("Script loaded successfully!");
 });
 
+// Evento de criação de tarefas
 taskForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -32,6 +34,7 @@ taskForm.addEventListener("submit", (e) => {
   renderTaskList();
 });
 
+// Evento de Ações da Tarefa
 taskList.addEventListener("click", (e) => {
   const target = e.target;
 
@@ -49,18 +52,20 @@ taskList.addEventListener("click", (e) => {
 
   if (target.classList.contains("edit-btn")) {
     const id = target.dataset.id;
-    toggleFavorite(id);
+
     renderTaskList();
   }
 
   if (target.classList.contains("del-btn")) {
+    const title = target.dataset.title;
     const id = target.dataset.id;
-    deleteTask(id);
-    renderTaskList();
+
+    deleteModal(title, id);
+
   }
 });
 
-// Filtro de Todas as Tarefas
+// Evento de Troca de Filtros
 filter.addEventListener("click", (e) => {
   const target = e.target.closest("button");
 

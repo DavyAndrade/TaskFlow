@@ -22,7 +22,7 @@
 - [ ] Botão de Editar Tarefa
 - [ ] Modal para Edição
 - [x] Deletar Tarefas
-- [ ] Modal para Exclusão
+- [x] Modal para Exclusão
 - [x] Botões de Filtros Funcionais
 - [x] Toggle de Tarefa Completa
 
