@@ -15,6 +15,8 @@
     --color-yellow-200: oklch(94.5% 0.129 101.54);
     --color-yellow-500: oklch(79.5% 0.184 86.047);
     --color-yellow-600: oklch(68.1% 0.162 75.834);
+    --color-green-300: oklch(87.1% 0.15 154.449);
+    --color-green-400: oklch(79.2% 0.209 151.711);
     --color-green-500: oklch(72.3% 0.219 149.579);
     --color-green-600: oklch(62.7% 0.194 149.214);
     --color-blue-50: oklch(97% 0.014 254.604);
@@ -43,6 +45,8 @@
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-6xl: 3.75rem;
@@ -296,6 +300,15 @@
   .border-gray-300 {
     border-color: var(--color-gray-300);
   }
+  .border-green-300 {
+    border-color: var(--color-green-300);
+  }
+  .border-green-400 {
+    border-color: var(--color-green-400);
+  }
+  .border-green-500 {
+    border-color: var(--color-green-500);
+  }
   .bg-blue-100 {
     background-color: var(--color-blue-100);
   }
@@ -305,8 +318,11 @@
   .bg-gray-500 {
     background-color: var(--color-gray-500);
   }
-  .bg-gray-600 {
-    background-color: var(--color-gray-600);
+  .bg-green-300 {
+    background-color: var(--color-green-300);
+  }
+  .bg-green-400 {
+    background-color: var(--color-green-400);
   }
   .bg-green-500 {
     background-color: var(--color-green-500);
@@ -341,11 +357,11 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
   .p-4 {
     padding: calc(var(--spacing) * 4);
-  }
-  .p-6 {
-    padding: calc(var(--spacing) * 6);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
@@ -372,6 +388,10 @@
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
   .text-6xl {
     font-size: var(--text-6xl);
     line-height: var(--tw-leading, var(--text-6xl--line-height));
@@ -379,6 +399,10 @@
   .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
+  }
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
   }
   .text-sm {
     font-size: var(--text-sm);
@@ -418,6 +442,9 @@
   }
   .text-white {
     color: var(--color-white);
+  }
+  .line-through {
+    text-decoration-line: line-through;
   }
   .underline {
     text-decoration-line: underline;

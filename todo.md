@@ -8,22 +8,23 @@
 - [ ] Responsividade para Notebook (lg).
 - [ ] Responsividade para Desktops (xl).
 - [ ] Responsividade para Telas Maiores (2xl)
-- [ ] Corpo e Estilização da Tarefa (Item)
+- [x] Corpo e Estilização da Tarefa (Item)
 
 ## JavaScript
 
-- [ ] Classe de Gerenciar Tarefas
 - [x] Criação de Tarefas
 - [x] Leitura de Tarefas
 - [x] Leitura de Tarefas Completas
 - [x] Leitura de Tarefas Favoritas
 - [x] Melhorar a leitura de tarefas
-- [ ] Botão de Concluir Tarefa
+- [x] Botão de Concluir Tarefa
 - [ ] Atualizar Tarefas
 - [ ] Botão de Editar Tarefa
-- [ ] Deletar Tarefas
+- [ ] Modal para Edição
+- [x] Deletar Tarefas
+- [ ] Modal para Exclusão
 - [x] Botões de Filtros Funcionais
-- [ ] Toggle de Tarefa Completa
+- [x] Toggle de Tarefa Completa
 
 # Outros
 
