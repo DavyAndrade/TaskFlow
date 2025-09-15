@@ -31,7 +31,7 @@ export function renderTaskList() {
             <p class=" text-base sm:text-lg ${
               task.completed ? "line-through text-gray-500" : "text-gray-800"
             }">${task.title}</p>
-            <p class="text-xs sm:text-sm text-gray-500 ">
+            <p class="text-xs sm:text-sm text-gray-400 ">
               Criada em ${new Date(task.createdAt).toLocaleDateString("pt-BR")}
             </p>
           </div>

@@ -28,7 +28,7 @@ export function createTask(title) {
 }
 
 export function updateTask(id, title) {
-  const task = this.tasks.find((task) => task.id === id);
+  const task = tasks.find((task) => task.id === id);
 
   if (task) {
     task.title = title;

@@ -18,9 +18,9 @@
 - [x] Leitura de Tarefas Favoritas
 - [x] Melhorar a leitura de tarefas
 - [x] Botão de Concluir Tarefa
-- [ ] Atualizar Tarefas
-- [ ] Botão de Editar Tarefa
-- [ ] Modal para Edição
+- [x] Atualizar Tarefas
+- [x] Botão de Editar Tarefa
+- [x] Modal para Edição
 - [x] Deletar Tarefas
 - [x] Modal para Exclusão
 - [x] Botões de Filtros Funcionais

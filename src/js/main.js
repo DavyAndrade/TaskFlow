@@ -6,7 +6,7 @@ import {
   deleteTask,
 } from "./tasks.js";
 import { renderTaskList } from "./render.js";
-import { deleteModal } from "./modals.js";
+import { deleteModal, editModal } from "./modals.js";
 
 const taskForm = document.getElementById("taskForm");
 const taskInput = document.getElementById("taskInput");
@@ -52,8 +52,9 @@ taskList.addEventListener("click", (e) => {
 
   if (target.classList.contains("edit-btn")) {
     const id = target.dataset.id;
+    const title = target.dataset.title;
 
-    renderTaskList();
+    editModal(title, id);
   }
 
   if (target.classList.contains("del-btn")) {
@@ -61,7 +62,6 @@ taskList.addEventListener("click", (e) => {
     const id = target.dataset.id;
 
     deleteModal(title, id);
-
   }
 });
 
