@@ -4,10 +4,10 @@
 
 - [x] Estrutura inicial do projeto
 - [x] Design Mobile-first.
-- [ ] Responsividade para Tablet (md).
-- [ ] Responsividade para Notebook (lg).
-- [ ] Responsividade para Desktops (xl).
-- [ ] Responsividade para Telas Maiores (2xl)
+- [x] Responsividade para Tablet (md).
+- [x] Responsividade para Notebook (lg).
+- [x] Responsividade para Desktops (xl).
+- [x] Responsividade para Telas Maiores (2xl)
 - [x] Corpo e Estilização da Tarefa (Item)
 
 ## JavaScript
