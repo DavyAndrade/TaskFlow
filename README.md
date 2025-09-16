@@ -9,11 +9,11 @@ O design da interface foi prototipado previamente no Canva, permitindo planejar 
 
 1. Clone ou baixe este repositório:
 	```bash
-	git clone https://github.com/DavyAndrade/ToDoList.git
+	git clone https://github.com/DavyAndrade/TaskFlow.git
 	```
 2. Acesse a pasta do projeto:
 	```bash
-	cd ToDoList
+	cd TaskFlow
 	```
 3. Instale as dependências:
 	```bash
