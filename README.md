@@ -3,6 +3,8 @@
 ## Descrição do Projeto
 O **ToDoList** é uma aplicação web responsiva para organização de tarefas, desenvolvida com JavaScript puro e Tailwind CSS. O projeto é 100% client-side, sem backend, e foi criado para fins educacionais, portfólio e prática de manipulação de DOM, localStorage e boas práticas de front-end.
 
+O design da interface foi prototipado previamente no Canva, permitindo planejar a experiência visual antes de iniciar o desenvolvimento do código.
+
 ## Instalação Local
 
 1. Clone ou baixe este repositório:
